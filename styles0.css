@@ -62,7 +62,7 @@ pre:not(:empty) {
     max-height: 70vh;
   }
 
-  #style-text {
+  #pgp-text {
     max-height: 20vh;
   }
 }
