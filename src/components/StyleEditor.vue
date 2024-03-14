@@ -2,7 +2,6 @@
   <div class="styleEditor" ref="container">
     <div class="code" v-html="codeInStyleTag"></div>
     <pre class="" v-html="highlightedCode"></pre>
-    <div v-on:click="test()">test</div>
   </div>
 </template>
 
