@@ -57,15 +57,14 @@ pre:not(:empty) {
   white-space: pre-wrap;
   outline: 0;
   margin: 1vh 0.5vw;
+}
 
+pre:not(#work-text) {
   #work-text {
     max-height: 70vh;
   }
-
-  #pgp-text {
-    max-height: 20vh;
-  }
 }
+
 
 /**
  * Okay. We're going to start filling up the screen.
