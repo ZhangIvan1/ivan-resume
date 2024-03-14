@@ -8,11 +8,10 @@ Full-Stack / NodeJS / DevOps
 教育经历
 -------
 
-* sam at bitmex dot com
-* samuel.trace.reed at gmail dot com
-* STRML on irc.freenode.net
-* @STRML_ on Twitter
-* STRML#7665 on Discord
+* **西安电子科技大学** 网络与信息安全 硕士
+
+* **南昌大学** 软件工程 学士
+
 
 Projects
 --------
