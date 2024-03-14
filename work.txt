@@ -1,11 +1,11 @@
 STRML.net
 =========
 
-Samuel Reed
+张一凡
 Co-Founder, BitMEX (The Bitcoin Mercantile Exchange)
 Full-Stack / NodeJS / DevOps
 
-Contact
+教育经历
 -------
 
 * sam at bitmex dot com
