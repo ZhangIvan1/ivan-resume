@@ -28,9 +28,10 @@ jobs:
         run: npm run build
         # 注意：此处移除了if条件，因为您提供的示例中没有定义steps.release及其outputs.release_created
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages # 部署到 gh-pages 分支，因为 main 分支存放的一般是源码，而 gh-pages 分支则用来存放生成的静态文件
-          FOLDER: dist # 确保此处的 FOLDER 与您构建输出目录的名称相匹配
+          branch: gh-pages # 目标分支
+          folder: dist # 构建产物的文件夹，根据实际情况修改，比如build或dist
+          token: ${{ secrets.ACCESS_TOKEN }} # 使用GitHub提供的token
+
