@@ -31,7 +31,8 @@ html {
  * Hold on...
  */
 
-pre, a {
+pre,
+a {
   color: white;
 }
 
@@ -52,7 +53,7 @@ pre:not(:empty) {
   font-size: 14px;
   font-family: monospace;
   padding: 1vh 0.5vw;
-  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  box-shadow: -4px 4px 2px 0 rgba(0, 0, 0, 0.3);
   white-space: pre-wrap;
   outline: 0;
   margin: 1vh 0.5vw;
@@ -73,12 +74,30 @@ pre:not(:empty) {
  * Let's make it even more readable.
  */
 
-.comment       { color: #857F6B; font-style: italic; }
-.selector      { color: #E69F0F; }
-.selector .key { color: #64D5EA; }
-.key           { color: #64D5EA; }
-.value         { color: #BE84F2; }
-.value.px      { color: #F92772; }
+.comment {
+  color: #857F6B;
+  font-style: italic;
+}
+
+.selector {
+  color: #E69F0F;
+}
+
+.selector .key {
+  color: #64D5EA;
+}
+
+.key {
+  color: #64D5EA;
+}
+
+.value {
+  color: #BE84F2;
+}
+
+.value.px {
+  color: #F92772;
+}
 
 /**
  * Now we're getting somewhere.
