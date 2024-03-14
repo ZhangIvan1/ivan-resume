@@ -41,6 +41,10 @@
  * You know, if you're into that sort of thing.
  */
 
+#work-text{
+  max-width: 70vh !important;
+}
+
 #pgp-text {
   font-size: 12px;
   color: #ada;
