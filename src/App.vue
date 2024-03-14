@@ -16,13 +16,13 @@ export default {
     StyleEditor,
     ResumeEditor
   },
-    data() {
-      return {
-        interval: 0,
-        currentStyle: '',
-        enableHtml: false,
-        fullStyle: [
-          `/*
+  data() {
+    return {
+      interval: 0,
+      currentStyle: '',
+      enableHtml: false,
+      fullStyle: [
+        `/*
 * Inspired by http://strml.net/
 * 最近看到一个很好玩的库
 * 身为front end engineer, 终生学习者。
@@ -76,14 +76,14 @@ html{
 
 
 `,
-          `
+        `
 /* 这个自我介绍好像差点什么
  * 对了，这是 Markdown 格式的，我需要变成对 读者 更友好的格式
  * 简单，用开源工具翻译成 HTML 就行了
  */
 `
-          ,
-          `
+        ,
+        `
 /* 再对 HTML 加点样式 */
 .resumeEditor{
   padding: 2em;
@@ -114,8 +114,8 @@ html{
   background: #ddd;
 }
 `],
-        currentMarkdown: '',
-        fullMarkdown: `李维涛
+      currentMarkdown: '',
+      fullMarkdown: `李维涛
 ----
 
 我觉得自己的标签： 前端开发里最爱篮球的一部分人
@@ -137,8 +137,8 @@ html{
 
 * [GitHub](https://github.com/weitao-Li)
 `
-      }
-    },
+    }
+  },
   created() {
     this.makeResume();
   },
@@ -217,10 +217,12 @@ html{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 html {
   min-height: 100vh;
 }
-*{
+
+* {
   box-sizing: border-box;
 }
 </style>
