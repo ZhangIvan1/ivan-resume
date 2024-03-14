@@ -33,7 +33,7 @@ export default {
 }
 
 .htmlMode {
-  animation: flip 2s;
+  animation: flip 4s;
 }
 
 @keyframes flip {
