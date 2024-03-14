@@ -48,7 +48,7 @@ pre:not(:empty) {
   overflow: auto;
   background: rgb(48, 48, 48);
   border: 1px solid #ccc;
-  /* max-height: 45vh; */
+  max-height: 90vh;
   width: 49%;
   font-size: 14px;
   font-family: monospace;
@@ -57,12 +57,6 @@ pre:not(:empty) {
   white-space: pre-wrap;
   outline: 0;
   margin: 1vh 0.5vw;
-}
-
-pre:not(#work-text) {
-  #work-text {
-    max-height: 70vh;
-  }
 }
 
 
