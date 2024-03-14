@@ -29,12 +29,12 @@ jobs:
         # 注意：此处移除了if条件，因为您提供的示例中没有定义steps.release及其outputs.release_created
 
       - name: CNAME
-        run: echo "resume.ivanz.cc" > ./dist/CNAME
+        run: echo "resume.ivanz.cc" > CNAME
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           branch: gh-pages # 目标分支
-          folder: dist # 构建产物的文件夹，根据实际情况修改，比如build或dist
+          folder: . # 构建产物的文件夹，根据实际情况修改，比如build或dist
           token: ${{ secrets.ACCESS_TOKEN }} # 使用GitHub提供的token
 
