@@ -145,9 +145,9 @@ html{
   methods: {
     makeResume: async function () {
       await this.progressivelyShowStyle(0)
-      await this.progressivelyShowResume()
+      await this.progressivelyShowResume(3)
       await this.progressivelyShowStyle(1)
-      await this.showHtml()
+      await this.showHtml(4)
       await this.progressivelyShowStyle(2)
     },
     showHtml: function () {
