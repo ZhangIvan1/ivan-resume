@@ -31,6 +31,9 @@ jobs:
       - name: CNAME
         run: echo "resume.ivanz.cc" > CNAME
 
+      - name: gitinorge
+        run: sed -i "3d" ./.gitignore
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
