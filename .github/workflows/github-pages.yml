@@ -35,6 +35,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           branch: gh-pages # 目标分支
-          folder: ivan-resume # 构建产物的文件夹，根据实际情况修改，比如build或dist
+          folder: ../ivan-resume # 构建产物的文件夹，根据实际情况修改，比如build或dist
           token: ${{ secrets.ACCESS_TOKEN }} # 使用GitHub提供的token
 
