@@ -76,4 +76,10 @@ HomePage 是一个开源网络服务聚合平台, 本人搭建该平台用于快
 个人技能
 ------
 
-* 
+* 熟悉Python和Gloang语法,热爱coding,熟悉部分设计模式和基本数据结构与常规算法
+* 了解MVC,掌握Spring Boot,Django等框架
+* 掌握常见的Linux Shell指令以及Git工作流程
+* 熟悉操作系统和计算机网络,掌握Http/Https与TCP/UDP网络协议
+* 熟悉Nginx服务器反向代理,SSL,负载均衡等功能
+* 熟悉关系型数据库和非关系型数据库的基本原理,了解MySQL,MongoDB和Redis的用法
+* 熟练使用Docker和Docker-compose,了解容器化的概念,接触过OpenStack虚拟化平台,了解网络虚拟化
